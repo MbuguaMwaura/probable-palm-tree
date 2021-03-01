@@ -65,7 +65,7 @@ export const setDirection = localValue => {
 };
 
 export const getAccessToken = () =>{
-  const token = '9df31524-596b-46e2-97fa-180ff5bde67f';
+  const token = '14dbbd32-02f0-4d4a-a78a-1faeaf908c50';
   return token;
 }
 

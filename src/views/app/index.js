@@ -19,6 +19,9 @@ const Logistics = lazy( () =>
 const Orders = lazy( () =>
     import('./orders')
 )
+const Network = lazy( () =>
+    import('./network')
+)
 
 class App extends Component {
   render() {
@@ -49,6 +52,10 @@ class App extends Component {
               <Route
                   path={`${match.url}/orders`}
                   render={props => <Orders {...props} />}
+              />
+              <Route
+                  path={`${match.url}/network`}
+                  render={props => <Network {...props} />}
               />
               <Redirect to="/error" />
             </Switch>

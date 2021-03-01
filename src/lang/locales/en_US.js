@@ -121,6 +121,8 @@ module.exports = {
   "menu.products-list": "Products List",
   "menu.order-requests": "Order Requests",
   "menu.approval": "Approval",
+  "menu.network" : "Network",
+  "menu.forum" : "Forum",
 
   /* 04.Error Page */
   "pages.error-title": "Ooops... looks like an error occurred!",

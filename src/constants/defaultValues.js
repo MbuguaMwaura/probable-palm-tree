@@ -24,7 +24,7 @@ export const firebaseConfig = {
 };
 
 export const searchPath = "/app/pages/search";
-export const servicePath = "http://localhost:8385/api/";
+export const servicePath = "http://localhost:8080/api/";
 
 /* 
 Color Options:
