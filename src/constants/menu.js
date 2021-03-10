@@ -257,5 +257,18 @@ const data = [
       }
     ]
   },
+  {
+    id: "network",
+    icon: "simple-icon-globe",
+    label: "menu.network",
+    to: "/app/network/",
+    subs: [
+      {
+        icon: "simple-icon-docs",
+        label: "menu.forum",
+        to: "/app/network/forum"
+      }
+    ]
+  },
 ];
 export default data;
